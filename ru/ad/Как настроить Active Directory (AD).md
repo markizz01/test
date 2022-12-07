@@ -6,11 +6,11 @@
 |<p>[Configuring Active Directory (AD)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ad/_index.md) </p><p>Как настроить Active Directory (AD)[^1]</p>|1112|
 
 
-# [Предварительные требования] [#_czw5ehs795m4]	                     
+# [Предварительные требования](#_czw5ehs795m4)	                     
 
 ## [Этапы настройки](#_utqdzehtseg9)	                                 
 
-[Откройте конфигурацию Active Directory](#_q29gfv46uyzt)	
+[Откройте конфигурацию Active Directory](_q29gfv46uyzt)	
 
 [Установите параметры сервера Active Directory](#_ovqis3utr1cl)	
 
