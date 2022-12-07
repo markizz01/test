@@ -10,7 +10,7 @@
 
 ## [Этапы настройки](#_utqdzehtseg9)	                                 
 
-[Откройте конфигурацию Active Directory](_q29gfv46uyzt)	
+[Откройте конфигурацию Active Directory](#q29gfv46uyzt)	
 
 [Установите параметры сервера Active Directory](#_ovqis3utr1cl)	
 
