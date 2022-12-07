@@ -6,9 +6,9 @@
 |<p>[Configuring Active Directory (AD)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ad/_index.md) </p><p>Как настроить Active Directory (AD)[^1]</p>|1112|
 
 
-# [Предварительные требования](#_czw5ehs795m4)	                     
+# Предварительные требования                     
 
-## [Этапы настройки](#_utqdzehtseg9)	                                 
+## Этапы настройки	                                 
 
 [Откройте конфигурацию Active Directory](https://github.com/markizz01/test/blob/main/ru/ad/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Active%20Directory%20(AD).md#%D0%BE%D1%82%D0%BA%D1%80%D0%BE%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8E-active-directory)	
 
@@ -22,7 +22,7 @@
 
 [Протестируйте аутентификацию](#_vdcoq4sskbwz)	
 
-## [Приложение: Определите базу поиска и схему с помощью ldapsearch](#_42euqsj1tqyf)	
+## Приложение: Определите базу поиска и схему с помощью ldapsearch](#_42euqsj1tqyf)	
 
 [Определите базу поиска (Search Base)](#_rjvthtfmgqv)	
 
