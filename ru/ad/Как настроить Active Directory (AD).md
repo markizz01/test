@@ -14,7 +14,7 @@
 
 [Установите параметры сервера Active Directory] (https://github.com/markizz01/test/blob/main/ru/ad/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Active%20Directory%20(AD).md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D0%B5-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-active-directory)
 
-[Настройте схему пользователя/группы](#_xjbtt1dvbxmc)(https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#настройте-схему-пользователягруппы#_xjbtt1dvbxmc)	
+[Настройте схему пользователя/группы]
 
 [Схема пользователя](#_2vjyy291lf1s)	
 
