@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Configuring Active Directory (AD)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ad/_index.md) </p><p>Как настроить Active Directory (AD)[^1]</p>|1112|
+|(https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ad/_index.md) </p><p>Как настроить Active Directory (AD)[^1]</p>|1112|
 
 
 # Предварительные требования                     
