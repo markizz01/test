@@ -20,9 +20,9 @@
 
 [Настройте Azure AD в Rancher](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#5-настройте-azure-ad-в-rancher)
 
-[Переход с Azure AD Graph API на Microsoft Graph API]
+## [Переход с Azure AD Graph API на Microsoft Graph API]
 
-[Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher]
+### [Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher]
 
 [Air-gapped окружения]
 
