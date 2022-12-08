@@ -22,7 +22,7 @@
 
 ## [Переход с Azure AD Graph API на Microsoft Graph API](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#переход-с-azure-ad-graph-api-на-microsoft-graph-api-1)
 
-### [Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher]
+### [Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#обновление-конечных-точек-endpoint-в-пользовательском-интерфейсе-rancher-1)
 
 [Air-gapped окружения](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#air-gapped-окружения)
 
