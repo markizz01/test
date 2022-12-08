@@ -20,7 +20,7 @@
 
 [Схема группы](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#схема-группы)	
 
-[Протестируйте аутентификацию](#_vdcoq4sskbwz)	
+[Протестируйте аутентификацию](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#протестируйте-аутентификацию)	
 
 ## Приложение: Определите базу поиска и схему с помощью ldapsearch]	
 
