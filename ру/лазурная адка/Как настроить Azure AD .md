@@ -4,21 +4,21 @@
 # Как настроить Azure AD
 
 
-# [Microsoft Graph API]
+#[Microsoft Graph API]
 
 [Настройка нового пользователя](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#настройка-нового-пользователя)
 
 [Схема настройки Azure Active Directory](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#схема-настройки-azure-active-directory)
 
-[1. Зарегистрируйте Rancher в Azure]
+[Зарегистрируйте Rancher в Azure](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#1-зарегистрируйте-rancher-в-azure)
 
-[2. Создайте новый секрет клиента]
+[Создайте новый секрет клиента]
 
-[3. Установите необходимые разрешения для Rancher]
+[Установите необходимые разрешения для Rancher]
 
-[4. Скопируйте данные приложения Azure]
+[Скопируйте данные приложения Azure]
 
-[5. Настройте Azure AD в Rancher]
+[Настройте Azure AD в Rancher]
 
 [Переход с Azure AD Graph API на Microsoft Graph API]
 
