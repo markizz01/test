@@ -1,40 +1,38 @@
 ﻿
 
 
-|**Название**|**Вес**|
-| :- | :- |
-|<p>[Configuring Azure AD](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/azure-ad/_index.md) </p><p>Как настроить Azure AD[^1]</p>|1115|
+# Как настроить Azure AD
 
 
-[**Microsoft Graph API](#_iw7km8kuynnj)	**1****
+# [Microsoft Graph API]
 
-[Настройка нового пользователя](#_lafnezsa6m95)	2
+[Настройка нового пользователя]
 
-[Схема настройки Azure Active Directory](#_sxpfb0mwqybh)	2
+[Схема настройки Azure Active Directory]
 
-[1. Зарегистрируйте Rancher в Azure](#_xkd60n7n4rmt)	2
+[1. Зарегистрируйте Rancher в Azure]
 
-[2. Создайте новый секрет клиента](#_69u4ghsvbsf2)	4
+[2. Создайте новый секрет клиента]
 
-[3. Установите необходимые разрешения для Rancher](#_r0ssl216lib7)	5
+[3. Установите необходимые разрешения для Rancher]
 
-[4. Скопируйте данные приложения Azure](#_zdbmppxthgq6)	7
+[4. Скопируйте данные приложения Azure]
 
-[5. Настройте Azure AD в Rancher](#_vepnjadvzmhm)	10
+[5. Настройте Azure AD в Rancher]
 
-[Переход с Azure AD Graph API на Microsoft Graph API](#_a85pzsg6i75q)	11
+[Переход с Azure AD Graph API на Microsoft Graph API]
 
-[Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher](#_plfjrfy2sat)	11
+[Обновление конечных точек (endpoint) в пользовательском интерфейсе Rancher]
 
-[Air-gapped окружения](#_6hkgc0qpdz76)	12
+[Air-gapped окружения]
 
-[Откат миграции](#_blh3ugdjy7su)	12
+[Откат миграции]
 
-[Глобальные](#_rb44fnuipudp)	13
+[Глобальные]
 
-[China](#_386lfkpqhi8j)	14
+[China]
 
-[**Azure AD Graph API](#_7t1l6ayrt9hi)	**14****
+# [Azure AD Graph API](#_7t1l6ayrt9hi)	
 
 *Примечание переводчика: в зависимости от версии Rancher выберите необходимый Вам раздел:*
 
