@@ -4,7 +4,7 @@
 # Как настроить Azure AD
 
 
-# [Microsoft Graph API]
+# Microsoft Graph API
 
 [Настройка нового пользователя](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#настройка-нового-пользователя)
 
