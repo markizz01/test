@@ -28,7 +28,7 @@
 
 [Определите схему пользователя](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#определите-схему-пользователя)	
 
-[Определите схему группы](#_7s082lbmkxxf)	
+[Определите схему группы](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#определите-схему-группы)	
 
 ## Приложение: Устранение неполадок
 
