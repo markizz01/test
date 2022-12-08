@@ -6,9 +6,9 @@
 
 # Microsoft Graph API
 
-[Настройка нового пользователя](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#настройка-нового-пользователя)
+## [Настройка нового пользователя](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#настройка-нового-пользователя)
 
-[Схема настройки Azure Active Directory](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#схема-настройки-azure-active-directory)
+### [Схема настройки Azure Active Directory](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#схема-настройки-azure-active-directory)
 
 [Зарегистрируйте Rancher в Azure](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#1-зарегистрируйте-rancher-в-azure)
 
