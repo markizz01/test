@@ -18,7 +18,7 @@
 
 [Скопируйте данные приложения Azure](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#4-скопируйте-данные-приложения-azure)
 
-[Настройте Azure AD в Rancher]
+[Настройте Azure AD в Rancher](https://github.com/markizz01/test/blob/main/ру/лазурная%20адка/Как%20настроить%20Azure%20AD%20.md#5-настройте-azure-ad-в-rancher)
 
 [Переход с Azure AD Graph API на Microsoft Graph API]
 
