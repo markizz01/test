@@ -18,7 +18,7 @@
 
 [Схема пользователя](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#схема-группы)
 
-[Схема группы](#_vskz62qp2i6j)	
+[Схема группы](https://github.com/markizz01/test/blob/main/ru/ad/Как%20настроить%20Active%20Directory%20(AD).md#схема-группы)	
 
 [Протестируйте аутентификацию](#_vdcoq4sskbwz)	
 
