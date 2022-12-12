@@ -12,7 +12,7 @@
 
 [Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#справка-по-конфигурированию)
 
-[Переход с SAML на OIDC]
+[Переход с SAML на OIDC](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#переход-с-saml-на-oidc)
 
 [Перенастройка Keycloak]
 
