@@ -107,9 +107,7 @@ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
   
 ....
   
-</EntityDescriptor>
-
-
+ </EntityDescriptor>
 
 
 
