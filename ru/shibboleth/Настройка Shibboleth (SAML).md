@@ -41,7 +41,7 @@
 4. Заполните форму **Configure Shibboleth Account** (настройки учетной записи Shibboleth). Shibboleth IdP позволяет вам указать, какое хранилище данных вы хотите использовать. Вы можете либо добавить базу данных, либо использовать существующий ldap-сервер. Если вы выберете сервер Active Directory (AD), ознакомьтесь с приведенными ниже примерами, чтобы узнать, как сопоставить атрибуты AD с полями в Rancher.
   I. **Display Name Field**: Введите атрибут AD, содержащий отображаемые имена пользователей (пример: displayName).
   II. **User Name Field**: Введите атрибут AD, содержащий имя пользователя/заданное имя (given name). Например, givenName.
-  III **UID Field**: Введите атрибут AD, уникальный для каждого пользователя (пример: sAMAccountName, distinguishedName).
+  III. **UID Field**: Введите атрибут AD, уникальный для каждого пользователя (пример: sAMAccountName, distinguishedName).
   IV. **Groups Field**: Вносит записи для управления членством в группах (пример: memberOf).
   V. **Rancher API Host**: Введите URL-адрес вашего сервера Rancher.
   VI. **Private Key and Certificate**: Пара ключ-сертификат для создания защищенной оболочки (secure shell) между Rancher и вашим IdP.
