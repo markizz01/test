@@ -6,7 +6,7 @@
 |<p>[Configuring Microsoft Active Directory Federation Service (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/microsoft-adfs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/microsoft-adfs/_index.md") </p><p>Настройка Microsoft Active Directory Federation Service (SAML)[^1]</p>|1205|
 
 
-### [Предварительные требования]
+### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/microsoft-adfs/Настройка%20Microsoft%20Active%20Directory%20Federation%20Service%20(SAML).md#предварительные-требования-1)
 
 ### [Схема настройки]
 
