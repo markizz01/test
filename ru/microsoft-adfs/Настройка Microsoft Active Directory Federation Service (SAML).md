@@ -24,11 +24,11 @@
 # Схема настройки
   Для того, чтобы настроить в Rancher аутентификацию с помощью Microsoft AD FS, необходимо настроить AD FS на вашем сервере Active Directory и настроить Rancher для использования вашего сервера AD FS. На следующих страницах описаны шаги, необходимые для настройки Microsoft AD FS в вашей установке Rancher.
 
-- 1. Настройка Microsoft AD FS для Rancher,
+- 1. [Настройка Microsoft AD FS для Rancher](https://github.com/markizz01/test/blob/main/ru/microsoft-adfs/microsoft-adfs-setup/1.%20Настройка%20Microsoft%20AD%20FS%20для%20Rancher.md)
 - 2. Настройка Rancher для Microsoft AD FS.
 
 {{< saml\_caveats >}}
 
-Далее: Настройка Microsoft AD FS для Rancher
+Далее: [Настройка Microsoft AD FS для Rancher](https://github.com/markizz01/test/blob/main/ru/microsoft-adfs/microsoft-adfs-setup/1.%20Настройка%20Microsoft%20AD%20FS%20для%20Rancher.md)
 
 
