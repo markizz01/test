@@ -39,15 +39,15 @@
 2. В левом навигационном меню выберите **Auth Provider** (поставщик аутентификации).
 3. Нажмите **Shibboleth**.
 4. Заполните форму **Configure Shibboleth Account** (настройки учетной записи Shibboleth). Shibboleth IdP позволяет вам указать, какое хранилище данных вы хотите использовать. Вы можете либо добавить базу данных, либо использовать существующий ldap-сервер. Если вы выберете сервер Active Directory (AD), ознакомьтесь с приведенными ниже примерами, чтобы узнать, как сопоставить атрибуты AD с полями в Rancher.
-  I. **Display Name Field**: Введите атрибут AD, содержащий отображаемые имена пользователей (пример: displayName).
-  II. **User Name Field**: Введите атрибут AD, содержащий имя пользователя/заданное имя (given name). Например, givenName.
-  III. **UID Field**: Введите атрибут AD, уникальный для каждого пользователя (пример: sAMAccountName, distinguishedName).
-  IV. **Groups Field**: Вносит записи для управления членством в группах (пример: memberOf).
-  V. **Rancher API Host**: Введите URL-адрес вашего сервера Rancher.
-  VI. **Private Key and Certificate**: Пара ключ-сертификат для создания защищенной оболочки (secure shell) между Rancher и вашим IdP.
+  1. **Display Name Field**: Введите атрибут AD, содержащий отображаемые имена пользователей (пример: displayName).
+  2. **User Name Field**: Введите атрибут AD, содержащий имя пользователя/заданное имя (given name). Например, givenName.
+  3. **UID Field**: Введите атрибут AD, уникальный для каждого пользователя (пример: sAMAccountName, distinguishedName).
+  4. **Groups Field**: Вносит записи для управления членством в группах (пример: memberOf).
+  5. **Rancher API Host**: Введите URL-адрес вашего сервера Rancher.
+  6. **Private Key and Certificate**: Пара ключ-сертификат для создания защищенной оболочки (secure shell) между Rancher и вашим IdP.
   Вы можете сгенерировать ее с помощью команды openssl. Например:
   openssl req -x509 -newkey rsa:2048 -keyout myservice.key -out myservice.cert -days 365 -nodes -subj "/CN=myservice.example.com"
-  VII. **IDP-metadata**: Файл metadata.xml, который вы экспортировали с вашего сервера IdP.
+  7. **IDP-metadata**: Файл metadata.xml, который вы экспортировали с вашего сервера IdP.
 5. После заполнения формы **Configure Shibboleth Account** нажмите **Enable** (включить).
 
 Rancher перенаправит вас на страницу входа в систему IdP. Чтобы провалидировать вашу конфигурацию Rancher Shibboleth, введите учетные данные, необходимые для аутентификации с помощью Shibboleth IdP.
