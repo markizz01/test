@@ -102,7 +102,6 @@ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
 У вас останется текст, аналогичный следующему:
 
 <EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" entityID="https://{KEYCLOAK-URL}/auth/realms/{REALM-NAME}">
-....
 </EntityDescriptor>
 
 
