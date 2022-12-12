@@ -8,7 +8,7 @@
 
 ### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#предварительные-требования)
 
-### [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#как-настроить-keycloak-в-rancher)
+### [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#как-настроить-keycloak-в-rancher-1)
 
 ### [Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#справка-по-конфигурированию-1)
 
