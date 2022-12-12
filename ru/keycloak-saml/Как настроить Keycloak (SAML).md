@@ -61,9 +61,9 @@
 ![image](https://user-images.githubusercontent.com/119851242/207046872-b08d4ecb-e0c9-4e88-9fed-d7d9f0abfa45.png)
 
 # Получение метаданных IDP
-- [*Keycloak 5 и более ранние версии*]()
-- [*Keycloak 6-13*](#da9sizovw7f6)
-- [*Keycloak 14+*](#z8zc2tc373fv)
+-  Keycloak 5 и более ранние версии
+-  Keycloak 6-13
+-  Keycloak 14+
 
 *Keycloak 5 и более ранние версии*
 
