@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Configuring ](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md")[PingIdentity](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md")[ (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md") </p><p>Настройка PingIdentity (SAML)[^1]</p>|1200|
+|<p> </p><p>Настройка PingIdentity (SAML)[^1]</p>|1200|
 
 
 `	`Если ваша организация использует Ping Identity Provider (IdP) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные IdP.
@@ -56,4 +56,6 @@ Rancher перенаправляет вас на страницу входа в 
 
 
 
-[^1]: 
+[^1]: [Configuring](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md")
+ [PingIdentity](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md")
+ [SAML](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/ping-federate/_index.md")
