@@ -6,7 +6,7 @@
 |<p>[Configuring Keycloak (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/keycloak-saml/_index.md) </p><p>Как настроить Keycloak (SAML)[^1]</p>|Создайте клиент Keycloak SAML и настройте Rancher для работы с Keycloak. В результате ваши пользователи смогут войти в Rancher, используя свои логины Keycloak.|1200|
 
 
-### [Предварительные требования]
+### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#предварительные-требования-1)
 
 ### [Получение метаданных IDP]
 
