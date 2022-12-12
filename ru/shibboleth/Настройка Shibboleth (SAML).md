@@ -6,14 +6,14 @@
 |<p>Настройка Shibboleth (SAML)[^1]</p>|1210|
 
 
-1.  [**Настройка Shibboleth в Rancher**]
-  + [Предварительные требования для Shibboleth]
-  + [Настройте Shibboleth в Rancher]
-  + [Предостережения поставщика SAML]
-2.  [**Настройка OpenLDAP в Rancher**]
-  + [Предварительные требования для OpenLDAP]
-  + [Настройка OpenLDAP в Rancher](
-3.  [**Устранение неполадок**]
+1.  [**Настройка Shibboleth в Rancher**](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-shibboleth-%D0%B2-rancher)
+  + [Предварительные требования для Shibboleth](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-shibboleth)
+  + [Настройте Shibboleth в Rancher](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%82%D0%B5-shibboleth-%D0%B2-rancher)
+  + [Предостережения поставщика SAML](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BA%D0%B0-saml)
+2.  [**Настройка OpenLDAP в Rancher**](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-openldap-%D0%B2-rancher)
+  + [Предварительные требования для OpenLDAP](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BF%D1%80%D0%B5%D0%B4%D0%B2%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-openldap)
+  + [Настройка OpenLDAP в Rancher](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-openldap-%D0%B2-rancher-1)
+3.  [**Устранение неполадок**](https://github.com/markizz01/test/blob/main/ru/shibboleth/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20Shibboleth%20(SAML).md#%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5%D0%BF%D0%BE%D0%BB%D0%B0%D0%B4%D0%BE%D0%BA)
 
   Если ваша организация использует Shibboleth Identity Provider (IdP) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в Rancher, используя свои учетные данные Shibboleth.
 
@@ -67,7 +67,7 @@ Rancher перенаправит вас на страницу входа в си
 - При добавлении групп вы должны выбрать группу из выпадающего списка, который находится рядом с текстовым полем. Rancher предполагает, что все, что было введено в текстовом поле, является пользователем.
 - В раскрывающемся списке групп отображаются только те группы, членом которых вы являетесь. Вы не сможете добавлять группы, членом которых вы не являетесь.
 
-OpenLDAP.
+Чтобы включить поиск групп при назначении разрешений в Rancher, будет необходимо настроить бэкенд для поставщика SAML, поддерживающего группы, например, для OpenLDAP.
   
 # Настройка OpenLDAP в Rancher
 **	Если вы также настроите OpenLDAP в качестве бэкенда для Shibboleth, он вернет Rancher утверждение SAML (SAML assertion) с атрибутами пользователя, включающими группы. Затем аутентифицированные пользователи смогут получить доступ к ресурсам в Rancher, на которые у их групп есть разрешения.
@@ -87,6 +87,7 @@ Rancher должен быть настроен с учетной записью 
 1. В левом верхнем углу нажмите **☰> Users & Authentication** (пользователи и аутентификация).
 1. В левом навигационном меню выберите **Auth Provider** (поставщик аутентификации).
 1. Нажмите **OpenLDAP**. Появится форма **Configure an OpenLDAP server** (настройка сервера OpenLDAP). 
+  
 # Устранение неполадок
   Если у вас возникли проблемы при тестировании подключения к серверу OpenLDAP, сначала дважды проверьте учетные данные, введенные для учетной записи сервиса, а также конфигурацию базы поиска. Вы также можете просмотреть журналы Rancher, чтобы более точно определить причину проблемы. Журналы отладки (debug log) могут также содержать более подробную информацию об ошибке. Пожалуйста, обратитесь к разделу "Как я могу включить ведение журнала отладки" в этой документации.
 
