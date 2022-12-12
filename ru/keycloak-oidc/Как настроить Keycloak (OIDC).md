@@ -22,7 +22,7 @@
 
 [Не произошло перенаправление на Keycloak](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#не-произошло-перенаправление-на-keycloak)
 
-[Сгенерированные Issuer и Auth Endpoint некорректны]
+[Сгенерированные Issuer и Auth Endpoint некорректны](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#сгенерированные-issuer-и-auth-endpoint-некорректны)
 
 [Ошибка Keycloak: "Invalid grant_type"]
 
