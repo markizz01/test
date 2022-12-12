@@ -96,8 +96,8 @@ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
   Полученный XML-файл содержит EntitiesDescriptor в качестве корневого элемента. Rancher ожидает, что корневым элементом будет EntityDescriptor, а не EntitiesDescriptor. Поэтому, прежде чем передавать этот XML в Rancher, выполните следующие действия, чтобы настроить его:
 
 1. Скопируйте из EntitiesDescriptor в EntityDescriptor все атрибуты, которые отсутствуют.
-1. Удалите тег <EntitiesDescriptor> из начала xml-файла.
-1. Удалите </EntitiesDescriptor> из конца xml-файла.
+1. Удалите тег <EntitiesDescriptor > из начала xml-файла.
+1. Удалите </EntitiesDescriptor > из конца xml-файла.
 
 У вас останется текст, аналогичный следующему:
 
