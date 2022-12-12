@@ -10,7 +10,7 @@
 
 ### [Получение метаданных IDP](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#получение-метаданных-idp-1)
 
-### [Как настроить Keycloak в Rancher]
+### [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#как-настроить-keycloak-в-rancher-1)
 
 ### [Справка по конфигурированию]
 
