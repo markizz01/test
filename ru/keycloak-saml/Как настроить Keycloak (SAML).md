@@ -12,7 +12,7 @@
 
 ### [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#как-настроить-keycloak-в-rancher-1)
 
-### [Справка по конфигурированию]
+### [Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#справка-по-конфигурированию-1)
 
 ### [Приложение: Устранение неполадок]
 
