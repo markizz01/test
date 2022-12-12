@@ -50,4 +50,4 @@
 
 
 
-[^1]: [Configuring GitHub](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/github/_index.md)
+[1]: [Configuring GitHub](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/github/_index.md)
