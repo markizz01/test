@@ -6,7 +6,7 @@
 |<p>[Configuring Keycloak (OIDC)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/keycloak-oidc/_index.md) </p><p>Как настроить Keycloak (OIDC)[^1]</p>|Создайте клиент Keycloak OpenID Connect (OIDC) и настройте Rancher для работы с Keycloak. В результате ваши пользователи смогут войти в Rancher, используя свои логины Keycloak.|1200|
 
 
-###[Предварительные требования](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#предварительные-требования)
+###. [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#предварительные-требования)
 
 ### [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#как-настроить-keycloak-в-rancher)
 
