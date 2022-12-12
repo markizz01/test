@@ -43,9 +43,9 @@
 |Client Protocol|SAML|
 |Valid Redirect URI|https://yourRancherHostURL/v1-saml/keycloak/saml/acs|
 
-\1.  При желании вы можете включить один или оба этих параметра. 
+1.  При желании вы можете включить один или оба этих параметра. 
 
-\2. SAML-метаданные Rancher не будут сгенерированы до тех пор, пока поставщик SAML (SAML provider) не будет настроен и сохранен.
+2. SAML-метаданные Rancher не будут сгенерированы до тех пор, пока поставщик SAML (SAML provider) не будет настроен и сохранен.
 
 ![image](https://user-images.githubusercontent.com/119851242/207046718-65974a3b-487b-4eb5-bb28-a13bce906228.png)
 
