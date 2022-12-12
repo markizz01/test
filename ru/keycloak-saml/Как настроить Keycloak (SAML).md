@@ -20,7 +20,7 @@
 
 [После входа в систему IdP отображается сообщение Forbidden](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#после-входа-в-систему-idp-отображается-сообщение-forbidden)
 
-[HTTP 502 при попытке получить доступ к /v1-saml/keycloak/saml/metadata]
+[HTTP 502 при попытке получить доступ к /v1-saml/keycloak/saml/metadata](https://github.com/markizz01/test/blob/main/ru/keycloak-saml/Как%20настроить%20Keycloak%20(SAML).md#http-502-при-попытке-получить-доступ-к-v1-samlkeycloaksamlmetadata)
 
 [Ошибка Keycloak: "We're sorry, failed to process response"]
 
