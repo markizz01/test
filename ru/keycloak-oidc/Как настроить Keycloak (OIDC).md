@@ -24,7 +24,7 @@
 
 [Сгенерированные Issuer и Auth Endpoint некорректны](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#сгенерированные-issuer-и-auth-endpoint-некорректны)
 
-[Ошибка Keycloak: "Invalid grant_type"]
+[Ошибка Keycloak: "Invalid grant_type"](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#ошибка-keycloak-invalid-grant_type)
 
   Если ваша организация использует [Keycloak Identity Provider (IdP)](https://www.keycloak.org/) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные IdP. Rancher поддерживает интеграцию с Keycloak с использованием протокола OpenID Connect (OIDC) и протокола SAML. Обе реализации функционально эквивалентны при использовании с Rancher. На этой странице описывается процесс настройки Rancher для работы с Keycloak с использованием протокола OIDC.
 
