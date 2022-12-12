@@ -6,7 +6,7 @@
 |<p>[Configuring Okta (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/okta/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/okta/_index.md") </p><p>Настройка Okta (SAML)[^1]</p>|1210|
 
 
-#### [Предварительные требования]
+#### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/okta/Настройка%20Okta%20(SAML).md#предварительные-требования-1)
 
 #### [Настройка Okta в Rancher]
 
@@ -51,7 +51,7 @@ Rancher перенаправляет вас на страницу входа в 
 
 ***Примечание:** Если кажется, что ничего не происходит, скорее всего, причина этого в том, что ваш браузер заблокировал всплывающее окно. Убедитесь, что вы отключили блокировщик всплывающих окон для своего домена rancher и внесли его в белый список любых других расширений, которые вы можете использовать.*
 
-**Результат:** Rancher настроен для работы с Okta. Теперь ваши пользователи могут входить в Rancher с помощью своих логинов из Okta.
+#### **Результат:** Rancher настроен для работы с Okta. Теперь ваши пользователи могут входить в Rancher с помощью своих логинов из Okta.
 
 {{< saml\_caveats >}}
 
