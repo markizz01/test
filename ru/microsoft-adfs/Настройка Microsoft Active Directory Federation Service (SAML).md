@@ -6,9 +6,9 @@
 |<p>[Configuring Microsoft Active Directory Federation Service (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/microsoft-adfs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/microsoft-adfs/_index.md") </p><p>Настройка Microsoft Active Directory Federation Service (SAML)[^1]</p>|1205|
 
 
-[**Предварительные требования](#_74t6d1kijiqt "#_74t6d1kijiqt")	**1****
+### [Предварительные требования]
 
-[**Схема настройки](#_mttearytg48g "#_mttearytg48g")	**1****
+### [Схема настройки]
 
 Если ваша организация использует Microsoft Active Directory Federation Services (AD FS) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные AD FS.
 # Предварительные требования
@@ -32,4 +32,3 @@
 Далее: Настройка Microsoft AD FS для Rancher
 
 
-[^1]: 
