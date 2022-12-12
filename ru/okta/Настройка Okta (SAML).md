@@ -6,16 +6,16 @@
 |<p>[Configuring Okta (SAML)](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/okta/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/okta/_index.md") </p><p>Настройка Okta (SAML)[^1]</p>|1210|
 
 
-[**Предварительные требования](#_130a7pp6uycj "#_130a7pp6uycj")	**1****
+#### [Предварительные требования]
 
-[**Настройка Okta в Rancher](#_w20919p8wvn "#_w20919p8wvn")	**1****
+#### [Настройка Okta в Rancher]
 
 
 Если ваша организация использует Okta Identity Provider (IdP) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные IdP.
 
 ***Примечание:** Интеграция с Okta поддерживает только логины, инициированные поставщиком услуг (Service Provider).*
 # Предварительные требования
-`	`В Okta создайте приложение SAML с приведенными ниже настройками. Обратитесь за помощью к [документации Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta "https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta").
+  В Okta создайте приложение SAML с приведенными ниже настройками. Обратитесь за помощью к [документации Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta "https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta").
 
 
 |**Параметр**|**Значение**|
@@ -41,7 +41,7 @@
 |Private Key / Certificate|Пара ключ/сертификат, используемая для шифрования утверждений (Assertion Encryption).|
 |Metadata XML|Файл Identity Provider metadata, который вы найдете в разделе Sign On (вход в приложение).|
 
-`	`***Совет:** Вы можете сгенерировать пару ключ/сертификат с помощью команды openssl. Например:*
+  ***Совет:** Вы можете сгенерировать пару ключ/сертификат с помощью команды openssl. Например:*
 
 *openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout myservice.key -out myservice.crt*
 
@@ -56,4 +56,3 @@ Rancher перенаправляет вас на страницу входа в 
 {{< saml\_caveats >}}
 
 
-[^1]: 
