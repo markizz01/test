@@ -31,7 +31,7 @@
 
    После того, как API Admin SDK будет включено, экран API вашего домена G Suite должен выглядеть следующим образом: 
 
-![](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.001.png)
+![скриншот](https://user-images.githubusercontent.com/22409457/207041892-17ee4359-11af-4065-a5b4-dad47302154b.png)
 
 # Настройка G Suite для OAuth с помощью Rancher
    Прежде чем вы сможете настроить Google OAuth в Rancher, вам необходимо войти в свою учетную запись G Suite и выполнить следующее:
