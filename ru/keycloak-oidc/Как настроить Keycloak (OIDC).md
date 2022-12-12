@@ -18,7 +18,7 @@
 
 [Перенастройка Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#перенастройка-rancher)
 
-### [Приложение: Устранение неполадок]
+### [Приложение: Устранение неполадок](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#приложение-устранение-неполадок-1)
 
 [Не произошло перенаправление на Keycloak]
 
