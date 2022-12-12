@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Configuring Google OAuth](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/google/_index.md) </p><p>Как настроить Google OAuth[^1]</p>|10|
+|<p>Как настроить Google OAuth[^1]</p>|10|
 
 
 [**Предварительные требования](#_mjpej1xvctcu)	**1****
@@ -134,4 +134,4 @@ openid,profile,email,https://www.googleapis.com/auth/admin.directory.user.readon
 
 
 
-[^1]: 
+[^1]: [Configuring Google OAuth](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/google/_index.md)
