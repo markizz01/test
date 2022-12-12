@@ -1,6 +1,11 @@
 
 
 
+|**Название**|**Вес**|
+| :- | :- |
+|<p>[Configuring FreeIPA](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/freeipa/_index.md) </p><p>Как настроить FreeIPA[^1]</p>|1114|
+
+
 
 
 
