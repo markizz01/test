@@ -65,7 +65,7 @@
 -  Keycloak 6-13
 -  Keycloak 14+
 
-*Keycloak 5 и более ранние версии*
+#### *Keycloak 5 и более ранние версии*
 
   Чтобы получить метаданные IDP, экспортируйте файл metadata.xml из вашего клиента Keycloak. На вкладке **Installation** (установка) выберите опцию форматирования **SAML Metadata IDPSSODescriptor** и загрузите свой файл.
 
