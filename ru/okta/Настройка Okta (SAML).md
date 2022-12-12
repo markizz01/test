@@ -8,7 +8,7 @@
 
 #### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/okta/Настройка%20Okta%20(SAML).md#предварительные-требования-1)
 
-#### [Настройка Okta в Rancher]
+#### [Настройка Okta в Rancher](https://github.com/markizz01/test/blob/main/ru/okta/Настройка%20Okta%20(SAML).md#настройка-okta-в-rancher-1)
 
 
 Если ваша организация использует Okta Identity Provider (IdP) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные IdP.
@@ -45,7 +45,7 @@
 
 *openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout myservice.key -out myservice.crt*
 
-1. После заполнения формы **Configure Okta Account** (настройка учетной записи Okta) нажмите **Enable** (включить).
+5. После заполнения формы **Configure Okta Account** (настройка учетной записи Okta) нажмите **Enable** (включить).
 
 Rancher перенаправляет вас на страницу входа в систему IdP. Введите учетные данные, которые проверяют подлинность с помощью Okta IdP, чтобы провалидировать вашу конфигурацию Rancher Okta.
 
