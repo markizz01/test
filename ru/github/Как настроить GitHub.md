@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Configuring GitHub](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/github/_index.md) </p><p>Как настроить GitHub[^1]</p>|1116|
+|</p><p>Как настроить GitHub[^1]</p>|1116|
 
 В окружениях, использующих GitHub, вы можете настроить Rancher так, чтобы он разрешал вход с использованием учетных данных GitHub.
 
