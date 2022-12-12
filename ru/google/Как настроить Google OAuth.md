@@ -45,7 +45,7 @@
 1. Нажмите [здесь](https://console.developers.google.com/apis/credentials), чтобы перейти на страницу учетных данных вашего домена Google.
 2. Выберите свой проект и нажмите **OAuth consent screen** (экран согласования OAuth).
 
-![скриншот 1](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.002.png)
+![скриншот 1](https://user-images.githubusercontent.com/22409457/207042044-356893c3-a4d5-471a-9a9e-72f0aba8a8fd.png)
 
 3. Перейдите в раздел **Authorized Domains** (авторизованные домены) и введите в списке URL-адрес верхнего частного домена (top private domain) вашего сервера Rancher. Верхний частный домен (top private domain) — это самый правый супердомен. Так, например, foo.co.uk — верхний частный домен для [www.foo.co.uk](http://www.foo.co.uk). Для получения дополнительной информации о доменах верхнего уровня обратитесь к [этой статье](https://github.com/google/guava/wiki/InternetDomainNameExplained#public-suffixes-and-private-domains).
 4. Перейдите в **Scopes for Google APIs** (области для API Google) и убедитесь, что **email** (электронная почта), **profile** (профиль) и **openid** включены.
@@ -55,7 +55,7 @@
 ## 2. Создание учетных данных OAuth2 для сервера Rancher
 1. Перейдите в консоль Google API, выберите свой проект и перейдите на страницу учетных данных.
 
-![](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.003.png)
+![скриншот 2](https://user-images.githubusercontent.com/22409457/207042092-497a9d4a-73ee-49e8-a2ae-f7e8f4f0b994.png)
 
 2. В раскрывающемся списке **Create Credentials** (создать учетные данные) выберите **OAuth client ID** (идентификатор клиента OAuth).
 3. Выберите **Web application** (веб-приложение).
@@ -86,15 +86,15 @@
 2. Нажмите **Create Service Account** (создать учетную запись сервиса).
 3. Введите имя и нажмите **Create** (создать).
 
-![скриншот 2](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.004.png)
+![скриншот 3](https://user-images.githubusercontent.com/22409457/207042157-abbfe5e6-35fd-4aff-b2e6-57784a943d3b.png)
 
 4. Не указывайте никаких ролей на странице **Service account permissions** (разрешения учетной записи сервиса) и нажмите **Continue** (продолжить).
 
-![скриншот 3](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.005.png)
+![скриншот 4](https://user-images.githubusercontent.com/22409457/207042190-948c8495-2318-4125-98d6-d46cd0185971.png)
 
 5. Нажмите на **Create Key** (создать ключ) и выберите параметр JSON. Загрузите JSON-файл и сохраните его, чтобы вы могли предоставить его в качестве учетных данных аккаунта сервиса для Rancher.
 
-![скриншот 4](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.006.png)
+![скриншот 5](https://user-images.githubusercontent.com/22409457/207042221-d4ef46ff-d6f5-4370-bcdd-73ef56dd461a.png)
 
 **Результат:** Ваша учетная запись для сервиса создана.
 
@@ -107,7 +107,7 @@
 
 *Примечание: это цифровой ключ, который не следует путать с буквенно-цифровым полем **Key ID** (идентификатор ключа).*
 
-![скриншот 6](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.007.png)
+![скриншот 6](https://user-images.githubusercontent.com/22409457/207042255-901fc50b-0783-4358-8a85-0e7779b49836.png)
 
 2. Перейдите на страницу [**Domain-wide Delegation**](https://admin.google.com/ac/owl/domainwidedelegation) (делегирование по всему домену).
 3. Добавьте уникальный идентификатор, полученный на предыдущем шаге, в поле **Client Name** (имя клиента).
