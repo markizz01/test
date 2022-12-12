@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>(Как настроить Active Directory (AD).md) </p><p>Как настроить Active Directory (AD).md[^1]</p>|1114|
+|<p> </p><p>Как настроить Active Directory (AD).md[^1]</p>|1112|
 
 
 
