@@ -10,7 +10,7 @@
 
 **Настройка G Suite для OAuth с помощью Rancher**
 
-[1.   Добавление Rancher в качестве авторизованного домена](#_9vyep7j2w3hp)	
+[1.   Добавление Rancher в качестве авторизованного домена](https://github.com/markizz01/test/blob/main/ru/google/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Google%20OAuth.md#1---%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-rancher-%D0%B2-%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0)	
 
 [2.   Создание учетных данных OAuth2 для сервера Rancher](#_hv4a7jp5d5js)	
 
