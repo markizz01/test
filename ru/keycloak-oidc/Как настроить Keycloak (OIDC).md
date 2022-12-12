@@ -10,7 +10,7 @@
 
 [Как настроить Keycloak в Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#как-настроить-keycloak-в-rancher)
 
-[Справка по конфигурированию]
+[Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#справка-по-конфигурированию)
 
 [Переход с SAML на OIDC]
 
