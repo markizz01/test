@@ -16,7 +16,7 @@
 
 [Перенастройка Keycloak](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#перенастройка-rancher)
 
-[Перенастройка Rancher]
+[Перенастройка Rancher](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#перенастройка-rancher)
 
 ### [Приложение: Устранение неполадок]
 
