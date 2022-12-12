@@ -32,14 +32,15 @@
    После того, как API Admin SDK будет включено, экран API вашего домена G Suite должен выглядеть следующим образом: 
 
 ![](Aspose.Words.7ae75f5e-a5f7-4975-a8c7-98e9b15cf48b.001.png)
+
 # Настройка G Suite для OAuth с помощью Rancher
    Прежде чем вы сможете настроить Google OAuth в Rancher, вам необходимо войти в свою учетную запись G Suite и выполнить следующее:
 
-1. [Добавление Rancher в качестве авторизованного домена](#_9vyep7j2w3hp),
-2. [Создание учетных данных OAuth2 для сервера Rancher](#_hv4a7jp5d5js),
-3. [Создание учетных данных учетной записи сервиса](#_sfovz4u8wxkj),
-4. [Зарегистрируйте ключ учетной записи сервиса в качестве клиента OAuth](#_nlsrua21ipis).
-5. 
+1. [Добавление Rancher в качестве авторизованного домена](https://github.com/markizz01/test/blob/main/ru/google/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Google%20OAuth.md#1-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-rancher-%D0%B2-%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5-%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0),
+2. [Создание учетных данных OAuth2 для сервера Rancher](https://github.com/markizz01/test/blob/main/ru/google/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Google%20OAuth.md#2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%83%D1%87%D0%B5%D1%82%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-oauth2-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-rancher),
+3. [Создание учетных данных учетной записи сервиса](https://github.com/markizz01/test/blob/main/ru/google/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Google%20OAuth.md#3-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%83%D1%87%D0%B5%D1%82%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D1%83%D1%87%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0),
+4. [Зарегистрируйте ключ учетной записи сервиса в качестве клиента OAuth](https://github.com/markizz01/test/blob/main/ru/google/%D0%9A%D0%B0%D0%BA%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C%20Google%20OAuth.md#4---%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BB%D1%8E%D1%87-%D1%83%D1%87%D0%B5%D1%82%D0%BD%D0%BE%D0%B9-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0-%D0%B2-%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%B0-oauth).
+ 
 ## 1. Добавление Rancher в качестве авторизованного домена
 1. Нажмите [здесь](https://console.developers.google.com/apis/credentials), чтобы перейти на страницу учетных данных вашего домена Google.
 2. Выберите свой проект и нажмите **OAuth consent screen** (экран согласования OAuth).
