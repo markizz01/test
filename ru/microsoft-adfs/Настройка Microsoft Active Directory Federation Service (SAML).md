@@ -8,7 +8,7 @@
 
 ### [Предварительные требования](https://github.com/markizz01/test/blob/main/ru/microsoft-adfs/Настройка%20Microsoft%20Active%20Directory%20Federation%20Service%20(SAML).md#предварительные-требования-1)
 
-### [Схема настройки]
+### [Схема настройки](https://github.com/markizz01/test/blob/main/ru/microsoft-adfs/Настройка%20Microsoft%20Active%20Directory%20Federation%20Service%20(SAML).md#схема-настройки-1)
 
 Если ваша организация использует Microsoft Active Directory Federation Services (AD FS) для аутентификации пользователей, вы можете настроить Rancher так, чтобы ваши пользователи могли входить в систему, используя свои учетные данные AD FS.
 # Предварительные требования
@@ -22,7 +22,7 @@
 - Получите IP-адрес вашего сервера AD FS или его DNS-имя. Во время настройки AD FS замените этот IP-адрес (DNS-имя) на временный местозаполнитель <AD\_SERVER>.
 - Убедитесь, что у вас есть доступ к добавлению [объектов ](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-relying-party-trust "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-relying-party-trust")[*Relying Party Trust*](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-relying-party-trust "https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/operations/create-a-relying-party-trust") на вашем сервере AD FS.
 # Схема настройки
-`	`Для того, чтобы настроить в Rancher аутентификацию с помощью Microsoft AD FS, необходимо настроить AD FS на вашем сервере Active Directory и настроить Rancher для использования вашего сервера AD FS. На следующих страницах описаны шаги, необходимые для настройки Microsoft AD FS в вашей установке Rancher.
+  Для того, чтобы настроить в Rancher аутентификацию с помощью Microsoft AD FS, необходимо настроить AD FS на вашем сервере Active Directory и настроить Rancher для использования вашего сервера AD FS. На следующих страницах описаны шаги, необходимые для настройки Microsoft AD FS в вашей установке Rancher.
 
 - 1. Настройка Microsoft AD FS для Rancher,
 - 2. Настройка Rancher для Microsoft AD FS.
