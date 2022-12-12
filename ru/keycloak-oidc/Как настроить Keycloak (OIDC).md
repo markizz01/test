@@ -83,7 +83,7 @@
 1. В пользовательском интерфейсе Rancher нажмите **☰> Users & Authentication** (пользователи и аутентификация).
 1. В левом навигационном меню выберите **Auth Provider** (поставщик аутентификации).
 1. Нажмите **Keycloak (OIDC)**.
-1. Заполните форму **Configure a Keycloak OIDC account** (настройка учетной записи OIDC Keycloak). Для получения дополнительной информации по заполнению формы см. раздел [Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#_drq1k1ix40gw).
+1. Заполните форму **Configure a Keycloak OIDC account** (настройка учетной записи OIDC Keycloak). Для получения дополнительной информации по заполнению формы см. раздел [Справка по конфигурированию](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#_drq1k1ix40gw)
 1. После того, как вы заполните форму **Configure a Keycloak OIDC account**, нажмите **Enable** (включить).
 
   Rancher перенаправит вас на страницу входа в систему IdP. Для проверки вашей конфигурации Rancher Keycloak введите учетные данные, которые требуются для аутентификации с помощью Keycloak IdP.
@@ -131,7 +131,7 @@
 1. Нажмите **Keycloak (SAML)**.
 1. Нажмите **Disable** (отключить).
 
-  Настройте Rancher для использования Keycloak (OIDC), выполнив действия, описанные в [этом разделе](#_gav3c7qm12ds).
+  Настройте Rancher для использования Keycloak (OIDC), выполнив действия, описанные в [этом разделе](https://github.com/markizz01/test/blob/main/ru/keycloak-oidc/Как%20настроить%20Keycloak%20(OIDC).md#как-настроить-keycloak-в-rancher-1))
 
 ***Примечание:** После завершения настройки необходимо будет повторно применить разрешения (permission) пользователя Rancher, поскольку они не переносятся автоматически.*
 # Приложение: Устранение неполадок
