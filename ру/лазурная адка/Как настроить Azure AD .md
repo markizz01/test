@@ -148,9 +148,10 @@
 
 
 1.2. Найдите запись, которую вы создали для Rancher.
+
 1.3. Скопируйте **Directory ID** (идентификатор директории) и вставьте его в свой [текстовый файл](#w8jutll22547).
 
-![image](https://user-images.githubusercontent.com/119851242/207311861-ece53eb5-d491-4e9d-9f1b-a748daa824a8.png)
+![image](https://user-images.githubusercontent.com/119851242/207326122-9b390551-b9c1-43da-a71b-3baa5310d2c7.png)
 
 
 - Вы вставите это значение в Rancher в качестве своего **Tenant ID**.
