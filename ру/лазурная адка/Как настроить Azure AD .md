@@ -190,7 +190,6 @@
 1. Нажмите **AzureAD**.
 1. Заполните форму **Configure Azure AD Account** (настройка учетной записи Azure AD), используя информацию, которую вы скопировали ранее (см. [Скопируйте данные приложения Azure](#_zdbmppxthgq6)).
 
-The following table maps the values you copied in the Azure portal to the fields in Rancher:
 
 
 The following table maps the values you copied in the Azure portal to the fields in Rancher:
@@ -201,6 +200,8 @@ The following table maps the values you copied in the Azure portal to the fields
 | Application Secret | Key Value                             |
 | Endpoint           | https://login.microsoftonline.com/    |
  
+
+
 >**For Custom Endpoints:** 
 ><br/>
 >The following table maps the custom config values you copied in the Azure portal to the fields in Rancher:
