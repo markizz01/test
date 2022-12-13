@@ -192,6 +192,7 @@
 
 The following table maps the values you copied in the Azure portal to the fields in Rancher:
 
+
 | Rancher Field      | Azure Value                           |
 
 \| ------------------ | ------------------------------------- |
