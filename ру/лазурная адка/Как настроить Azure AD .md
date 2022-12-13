@@ -80,7 +80,8 @@
 
 
 3.1. Введите имя (что-то, похожее на Rancher)
-3.2. Из **Supported account types** (поддерживаемых типов учетных записей) выберите "Accounts in this organizational directory only (AzureADTest only - Single tenant)"[^2]. Это соответствует параметрам регистрации устаревшего приложения.
+
+3.2. Из **Supported account types** (поддерживаемых типов учетных записей) выберите "Accounts in this organizational directory only (AzureADTest only - Single tenant)". Это соответствует параметрам регистрации устаревшего приложения.
 
 ***Важно:** На обновленном портале Azure, URI перенаправления (redirect URI) являются синонимами URL-адресов ответов. Чтобы использовать Azure AD с Rancher, вы должны внести Rancher с Azure в белый список (ранее это делалось с помощью URL-адресов ответов). Следовательно, вы должны обязательно заполнить URI перенаправления URL-адресом вашего сервера Rancher, чтобы указать путь верификации (см. ниже).*
 
