@@ -207,10 +207,11 @@ The following table maps the values you copied in the Azure portal to the fields
 
 >**For Custom Endpoints:** 
 ><br/>
+
 The following table maps the custom config values you copied in the Azure portal to the fields in Rancher:
 
 | Rancher Field      | Azure Value                           |
-| ------------------ | ------------------------------------- |
+| :- | :- |
 | Graph Endpoint     | Microsoft Graph API Endpoint          |
 | Token Endpoint     | OAuth 2.0 Token Endpoint              |
 | Auth Endpoint      | OAuth 2.0 Authorization Endpoint      |
