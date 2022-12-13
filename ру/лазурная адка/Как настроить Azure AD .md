@@ -219,7 +219,7 @@ The following table maps the custom config values you copied in the Azure portal
 br/
 **Important:** When entering the Graph Endpoint in a custom config, remove the tenant ID from the URL, like below:
 
- code>http<span>s://g</span>raph.microsoft.com/<del>abb5adde-bee8-4821-8b03-e63efdc7701c</del></code
+ <code>http<span>s://g</span>raph.microsoft.com/<del>abb5adde-bee8-4821-8b03-e63efdc7701c</del></code>
 
 
 
