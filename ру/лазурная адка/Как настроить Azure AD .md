@@ -38,8 +38,8 @@
 
 *Примечание переводчика: в зависимости от версии Rancher выберите необходимый Вам раздел:*
 
-- [*Rancher v2.6.7+]
-- [*Rancher v2.6.0 - v2.6.6]
+-  Rancher v2.6.7+
+-  Rancher v2.6.0 - v2.6.6
 
 ***Rancher v2.6.7+***
 # Microsoft Graph API
