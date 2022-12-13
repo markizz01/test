@@ -208,11 +208,11 @@ The following table maps the values you copied in the Azure portal to the fields
 ><br/>
 >The following table maps the custom config values you copied in the Azure portal to the fields in Rancher:
 
->| Rancher Field      | Azure Value                           |
->| ------------------ | ------------------------------------- |
->| Graph Endpoint     | Microsoft Graph API Endpoint          |
->| Token Endpoint     | OAuth 2.0 Token Endpoint              |
->| Auth Endpoint      | OAuth 2.0 Authorization Endpoint      |
+| Rancher Field      | Azure Value                           |
+| ------------------ | ------------------------------------- |
+| Graph Endpoint     | Microsoft Graph API Endpoint          |
+| Token Endpoint     | OAuth 2.0 Token Endpoint              |
+| Auth Endpoint      | OAuth 2.0 Authorization Endpoint      |
 ><br/>
 >**Important:** When entering the Graph Endpoint in a custom config, remove the tenant ID from the URL, like below:
 
@@ -242,7 +242,7 @@ The following table maps the values you copied in the Azure portal to the fields
 
 \><br/>
 
- >The following table maps the custom config values you copied in the Azure portal to the fields in Rancher:
+The following table maps the custom config values you copied in the Azure portal to the fields in Rancher:
 
 
 | Rancher Field      | Azure Value                         |
@@ -259,7 +259,7 @@ The following table maps the values you copied in the Azure portal to the fields
 
 \>\*\*Important:\*\* When entering the Graph Endpoint in a custom config, remove the tenant ID from the URL, like below:
 
-\>
+
 
 \><code>http<span>s://g</span>raph.microsoft.com/<del>abb5adde-bee8-4821-8b03-e63efdc7701c</del></code>
 
