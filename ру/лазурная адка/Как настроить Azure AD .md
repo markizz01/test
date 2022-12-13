@@ -226,7 +226,7 @@ The following table maps the values you copied in the Azure portal to the fields
 
 | Rancher Field      | Azure Value                           |
 
-|:- |:- |
+| :- | :- |
 
 | Tenant ID          | Directory ID                          |
 
@@ -246,15 +246,15 @@ The following table maps the values you copied in the Azure portal to the fields
 
 \>
 
-\>| Rancher Field      | Azure Value                           |
+| Rancher Field      | Azure Value                         |
 
-\>| ------------------ | ------------------------------------- |
+| :- | :- |
 
-\>| Graph Endpoint     | Microsoft Graph API Endpoint          |
+| Graph Endpoint     | Microsoft Graph API Endpoint          |
 
-\>| Token Endpoint     | OAuth 2.0 Token Endpoint              |
+| Token Endpoint     | OAuth 2.0 Token Endpoint              |
 
-\>| Auth Endpoint      | OAuth 2.0 Authorization Endpoint      |
+| Auth Endpoint      | OAuth 2.0 Authorization Endpoint      |
 
 \><br/>
 
