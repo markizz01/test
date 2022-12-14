@@ -3,7 +3,7 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Authentication](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/_index.md) </p><p>Аутентификация[]</p>|10|
+|<p>[Authentication](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/_index.md) </p><p>Аутентификация</p>|10|
 
 
 ### [Внешняя vs. локальная аутентификация](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#внешняя-vs-локальная-аутентификация-1)
@@ -12,7 +12,7 @@
 
 ### [Границы авторизации в Rancher](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#границы-авторизации-в-rancher-1)
 
-### [Внешняя настройка аутентификации и пользователи-принципалы]
+### [Внешняя настройка аутентификации и пользователи-принципалы](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#внешняя-настройка-аутентификации-и-пользователи-принципалы-1)
 
 Одной из ключевых функций, которые Rancher добавляет в Kubernetes, является централизованная аутентификация пользователя. Эта функция позволяет вашим пользователям использовать один набор учетных данных для аутентификации в любом из ваших кластеров Kubernetes.
 
