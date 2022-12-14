@@ -8,7 +8,7 @@
 
 ### [Внешняя vs. локальная аутентификация](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#внешняя-vs-локальная-аутентификация-1)
 
-### [Пользователи и группы]
+### [Пользователи и группы](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#пользователи-и-группы-1)
 
 ### [Границы авторизации в Rancher]
 
