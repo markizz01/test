@@ -3,14 +3,14 @@
 
 |**Название**|**Вес**|
 | :- | :- |
-|<p>[Authentication](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/_index.md) </p><p>Аутентификация[^1]</p>|10|
+|<p>[Authentication](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/admin-settings/authentication/_index.md) </p><p>Аутентификация[]</p>|10|
 
 
 ### [Внешняя vs. локальная аутентификация](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#внешняя-vs-локальная-аутентификация-1)
 
 ### [Пользователи и группы](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#пользователи-и-группы-1)
 
-### [Границы авторизации в Rancher]
+### [Границы авторизации в Rancher](https://github.com/markizz01/test/blob/main/ru/Authentication/Authentication.md#границы-авторизации-в-rancher-1)
 
 ### [Внешняя настройка аутентификации и пользователи-принципалы]
 
