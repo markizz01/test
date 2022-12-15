@@ -13,4 +13,5 @@ Fluent Bit запрашивает API Kubernetes и пополняет журн�
 
 Каждый Flow должен ссылаться на Output, и каждый ClusterFlow должен ссылаться на ClusterOutput.
 На рисунке из документации Banzai (https://banzaicloud.com/docs/one-eye/logging-operator/#architecture) показана новая архитектура ведения журнала:
+
 Как оператор Banzai Cloud Logging работает с Fluentd и Fluent Bit https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/logging/architecture/%7B%7B%3Cbaseurl%3E%7D%7D/img/rancher/banzai-cloud-logging-operator.png
