@@ -1,7 +1,7 @@
 ***Примечание.** Системные инструменты устарели с июня 2022 года.*
 
 # Журналы
-Пожалуйста, используйте ]logs-collector](https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x/logs-collector) для сбора журналов из вашего кластера.
+Пожалуйста, используйте [logs-collector](https://github.com/rancherlabs/support-tools/tree/master/collection/rancher/v2.x/logs-collector) для сбора журналов из вашего кластера.
 
 # Статистика
 Если вы хотите воспроизвести команду stats, вы можете запустить следующую команду на узлах вашего кластера:
