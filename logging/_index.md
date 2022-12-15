@@ -2,7 +2,7 @@ Rancher интегрируется с популярными сервисами 
 
 Оператор Banzai Cloud Logging теперь поддерживает решение Rancher для ведения журналов вместо прежнего внутреннего решения.
 
-Обзор изменений в версии 2.5 [см . в этом разделе.](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/logging/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/logging/architecture/.)  Сведения о переходе с Logging V1 [см . на этой странице.]((https://github.com/rancher/docs/tree/master/content/rancher)
+Обзор изменений в версии 2.5 [см . в этом разделе.](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/logging/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/logging/architecture/.)  Сведения о переходе с Logging V1 [см . на этой странице.](https://github.com/rancher/docs/tree/master/content/rancher)
 
 -	Включение ведения журнала
 -	Удалить ведение журнала
