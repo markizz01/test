@@ -1,7 +1,7 @@
 Для получения полной информации о настройке **Flows** и **ClusterFlows** см . документацию оператора Banzai Cloud Logging. https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/
 
 **Конфигурация**
-+	**Потоки**
++	[**Потоки**](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/flows/_index.md#%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8)
     - **Соответствия**
     -	**Фильтры**
     -	**Выходы**
