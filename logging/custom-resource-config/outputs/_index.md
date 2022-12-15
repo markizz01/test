@@ -1,11 +1,11 @@
 Для получения полной информации о настройке Outputs и ClusterOutputs см . документацию оператора Banzai Cloud Logging   (https://banzaicloud.com/docs/one-eye/logging-operator/configuration/output/). 
 
-+	Конфигурация
-+	YAML-примеры
-    -	Вывод кластера в ElasticSearch
-    -	Вывод в Splunk
-    -	Вывод в системный журнал
-    -	Неподдерживаемые выходы
++	[Конфигурация](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
++	[YAML-примеры](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#yaml-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B)
+    -	[Вывод кластера в ElasticSearch](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0-%D0%B2-elasticsearch)
+    -	[Вывод в Splunk](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4-%D0%B2-splunk)
+    -	[Вывод в системный журнал](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4-%D0%B2-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)
+    -	[Неподдерживаемые выходы](https://github.com/markizz01/test/blob/main/logging/custom-resource-config/outputs/_index.md#%D0%BD%D0%B5%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D1%8B)
 
 # Конфигурация
 ## Выходы
