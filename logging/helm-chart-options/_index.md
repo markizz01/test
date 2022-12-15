@@ -2,12 +2,12 @@
 |:-|:-|:-|
 |Rancher-Logting Параметры диаграммы Helm|||
 
--	Включить/отключить ведение журнала узла Windows
--	Работа с пользовательским корневым каталогом Docker
--	Добавление настроек NodeSelector и допусков для пользовательских Taints
--	Включение приложения ведения журнала для работы с SELinux
--	Дополнительные источники журналов
--	Конфигурация системы
+-	[Включить/отключить ведение журнала узла Windows](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-%D1%83%D0%B7%D0%BB%D0%B0-windows)
+-	[Работа с пользовательским корневым каталогом Docker](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%BC-%D0%BA%D0%BE%D1%80%D0%BD%D0%B5%D0%B2%D1%8B%D0%BC-%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%BC-docker)
+-	[Добавление настроек NodeSelector и допусков для пользовательских Taints](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-nodeselector-%D0%B8-%D0%B4%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%BE%D0%B2-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D1%85-taints)
+-	[Включение приложения ведения журнала для работы с SELinux](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D1%81-selinux)
+-	[Дополнительные источники журналов](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2)
+-	[Конфигурация системы](https://github.com/markizz01/test/blob/main/logging/helm-chart-options/_index.md#%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B)
 
 
 ## Включить/отключить ведение журнала узла Windows
@@ -32,7 +32,7 @@
 
 ## Добавление настроек NodeSelector и допусков для пользовательских Taints
 
-Вы можете добавить свои собственные nodeSelector настройки и добавить tolerations для дополнительных настроек, отредактировав значения диаграммы Helm для регистрации. Подробнее см . на этой странице. docs/content/rancher/v2.6/en/logging/taints-tolerations/ 
+Вы можете добавить свои собственные nodeSelector настройки и добавить tolerations для дополнительных настроек, отредактировав значения диаграммы Helm для регистрации. Подробнее [см . на этой странице. docs/content/rancher/v2.6/en/logging/taints-tolerations/ ](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/logging/taints-tolerations)
 
 ## Включение приложения ведения журнала для работы с SELinux
 
