@@ -4,20 +4,20 @@ Rancher интегрируется с популярными сервисами 
 
 Обзор изменений в версии 2.5 [см . в этом разделе.](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/logging/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/logging/architecture/.)  Сведения о переходе с Logging V1 [см . на этой странице.](https://github.com/rancher/docs/tree/master/content/rancher)
 
--	Включение ведения журнала
--	Удалить ведение журнала
--	Архитектура
--	Управление доступом на основе ролей
--	Настройка пользовательских ресурсов ведения журнала
-    -	Потоки и кластерные потоки
-    -	Выходы и кластерные выходы
--	Настройка диаграммы Logging Helm
-    -	Поддержка Windows
-    -	Работа с пользовательским корневым каталогом Docker
-    -	Работа с пороками и допусками
-    -	Ведение журнала V2 с помощью SELinux
-    -	Дополнительные источники журналов
--	Исправление проблем
+-	[Включение ведения журнала](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0)
+-	[Удалить ведение журнала](https://github.com/markizz01/test/blob/main/logging/_index.md#%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C-%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0)
+-	[Архитектура](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0)
+-	[Управление доступом на основе ролей](https://github.com/markizz01/test/blob/main/logging/_index.md#%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%BD%D0%B0-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-%D1%80%D0%BE%D0%BB%D0%B5%D0%B9)
+-	[Настройка пользовательских ресурсов ведения журнала](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D1%85-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2)
+    -	[Потоки и кластерные потоки](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8-%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D1%82%D0%BE%D0%BA%D0%B8)
+    -	[Выходы и кластерные выходы](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D1%8B-%D0%B8-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5-%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D1%8B)
+-	[Настройка диаграммы Logging Helm](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-logging-helm)
+    -	[Поддержка Windows](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-windows)
+    -	[Работа с пользовательским корневым каталогом Docker](https://github.com/markizz01/test/blob/main/logging/_index.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%BC-%D0%BA%D0%BE%D1%80%D0%BD%D0%B5%D0%B2%D1%8B%D0%BC-%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%BC-docker)
+    -	[Работа с пороками и допусками](https://github.com/markizz01/test/blob/main/logging/_index.md#%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D0%B7%D0%B0%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8-%D0%B8-%D0%B4%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%BC%D0%B8)
+    -	[Ведение журнала V2 с помощью SELinux](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-v2-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-selinux)
+    -	[Дополнительные источники журналов](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2)
+-	[Исправление проблем](https://github.com/markizz01/test/blob/main/logging/_index.md#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC)
 
 
 # Включение ведения журнала
