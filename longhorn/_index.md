@@ -47,7 +47,7 @@
 
 Проект Longhorn доступен [здесь.](https://github.com/longhorn/longhorn)
 
-#Документация
+# Документация
 
 Документация Longhorn находится [здесь.](https://longhorn.io/docs/)
 
