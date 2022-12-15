@@ -6,7 +6,7 @@
 
 Если у модулей будет toleration, то при «заражении» этого узла, они будут работать на других узлах в кластере.
 
-Заражения и допуски https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/ могут работать в сочетании с полем https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector nodeSelector  внутри PodSpec, что обеспечивает эффект противоположный заражению.
+[Заражения и допуски](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) могут работать в сочетании с [полем](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector) nodeSelector внутри PodSpec, что обеспечивает эффект противоположный заражению.
 
 Использование nodeSelector придает модулям сходство с определенными узлами.
 
