@@ -2,18 +2,18 @@
 
 Среди множества функций и изменений в новой функции ведения журнала — удаление конфигураций ведения журнала для конкретных проектов. Вместо этого теперь можно настроить ведение журнала на уровне пространства имен. Ведение журнала на уровне кластера остается доступным, но параметры конфигурации различаются.
 
-+	Монтаж
-    -	Терминология
-+	Ведение журнала кластера
-+	Ведение журнала проекта
-+	Выходная конфигурация
-    -	Эластичный поиск
-    -	Splunk
-    -	Кафка
-    -	свободно
-    -	системный журнал
-+	Пользовательские поля журнала
-+	Системный журнал
++	[Монтаж](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6)
+    -	[Терминология](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F)
++	[Ведение журнала кластера](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0)
++	[Ведение журнала проекта](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
++	[Выходная конфигурация](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D0%B2%D1%8B%D1%85%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
+    -	[Эластичный поиск](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#elasticsearch)
+    -	[Splunk](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#splunk)
+    -	[Кафка](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#kafka)
+    -	[свободно](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#fluentd)
+    -	[системный журнал](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#syslog)
++	[Пользовательские поля журнала](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8F-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B0)
++	[Системный журнал](https://github.com/markizz01/test/blob/main/logging/migrating/_index.md#%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)
 
 
 # Монтаж
