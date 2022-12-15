@@ -9,13 +9,13 @@
 Проекты Rancher решают эту проблему, позволяя применять ресурсы и права доступа на уровне проекта. Затем каждое пространство имен в проекте наследует эти ресурсы и политики, поэтому вам нужно назначить их проекту только один раз, а не каждому отдельному пространству имен.
 
 Вы можете использовать проекты для выполнения таких действий, как:
--	Назначение пользователям доступа к группе пространств имен
--	Назначение пользователям определенных ролей в проекте .  Роль владельца, участника, «только для чтения» или пользователя .
--	Установка квоты ресурсов
--	Управление пространствами имен
--	Настройка инструментов
--	Настройка конвейеров для непрерывной интеграции и развертывания
--	Настройка политик безопасности модуля
+-	[Назначение пользователям доступа к группе пространств имен](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/project-members)
+-	[Назначение пользователям определенных ролей в проекте .  Роль владельца, участника, «только для чтения» или пользователя .](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/admin-settings/rbac/default-custom-roles)
+-	[Установка квоты ресурсов](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/resource-quotas)
+-	[Управление пространствами имен](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/namespaces)
+-	[Настройка инструментов](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/tools)
+-	[Настройка конвейеров для непрерывной интеграции и развертывания](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/pipelines)
+-	[Настройка политик безопасности модуля](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/project-admin/pod-security-policies)
 
 # Авторизация
 Пользователи без прав администратора получают доступ к проекту только после того, как [администратор](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/admin-settings/rbac/global-permissions) , [владелец кластера или участник или владелец проекта](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/admin-settings/rbac/cluster-project-roles/#cluster-roles) [добавит](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/project-admin/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/admin-settings/rbac/cluster-project-roles/#project-roles) их во вкладку " Участники " проекта .
