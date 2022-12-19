@@ -20,17 +20,17 @@
 
 В этом разделе рассматриваются следующие темы:
 
--	Концепции
--	Как работают конвейеры
--	Управление доступом на основе ролей для конвейеров
--	Настройка конвейеров
-    +	Настройка поставщиков контроля версий
-    +	Настроить репозитории
-    +	Настроить конвейер
--	Справочник по конфигурации конвейера
--	Запуск ваших конвейеров
--	Запуск конвейера
-    +	Изменение триггеров событий для репозитория
+-	[Концепции](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D0%B8)
+-	[Как работают конвейеры](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%8E%D1%82-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D1%8B)
+-	[Управление доступом на основе ролей для конвейеров](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC-%D0%BD%D0%B0-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-%D1%80%D0%BE%D0%BB%D0%B5%D0%B9-%D0%B4%D0%BB%D1%8F-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%BE%D0%B2)
+-	[Настройка конвейеров](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%BE%D0%B2)
+    +	[Настройка поставщиков контроля версий](https://github.com/markizz01/test/blob/main/pipelines/_index.md#1-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9-version-control-providers)
+    +	[Настроить репозитории](https://github.com/markizz01/test/blob/main/pipelines/_index.md#2-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B2)
+    +	[Настроить конвейер](https://github.com/markizz01/test/blob/main/pipelines/_index.md#3-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%B0)
+-	[Справочник по конфигурации конвейера](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%BF%D0%BE-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%B0)
+-	[Запуск ваших конвейеров](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%B2%D0%B0%D1%88%D0%B8%D1%85-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%BE%D0%B2)
+-	[Запуск конвейера](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D0%B9%D0%B5%D1%80%D0%B0)
+    +	[Изменение триггеров событий для репозитория](https://github.com/markizz01/test/blob/main/pipelines/_index.md#%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D0%BE%D0%B2-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F)
 
 # Концепции
 
