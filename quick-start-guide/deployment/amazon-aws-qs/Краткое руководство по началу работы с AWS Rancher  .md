@@ -5,7 +5,8 @@
 
 Следующие шаги позволят быстро развернуть сервер Rancher на AWS в кластере K3s Kubernetes single-node (с одним узлом), к которому подключен нижестоящий кластер Kubernetes single-node.
 
-### **Примечание.** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Эти руководства не предназначены для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
+### **Примечание.
+** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Эти руководства не предназначены для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
 
 ### **Необходимые условия**
 
