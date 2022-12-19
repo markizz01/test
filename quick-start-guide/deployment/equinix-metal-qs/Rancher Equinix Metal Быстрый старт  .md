@@ -14,7 +14,7 @@
 
 Это краткое руководство разделено на различные задачи для более удобного использования.
 
-1. [Предоставление хоста Equinix Metal](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#1-provision-a-equinix-metal-host")
+1. [Предоставление хоста Equinix Metal](https://github.com/markizz01/test/blob/main/quick-start-guide/deployment/equinix-metal-qs/Rancher%20Equinix%20Metal%20Быстрый%20старт%20%20.md#предоставление-хостаequinixmetal)
 2. [Установить Rancher ](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#2-install-rancher")
 3. [Авторизоваться](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#3-log-in")
 4. [Создайте кластер](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#4-create-the-cluster")
