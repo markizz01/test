@@ -8,7 +8,8 @@
 - Создание вашего первого кластера
 - Развертывание приложения, Nginx
 
-### ***Примечание.*** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Установка Docker не рекомендуется для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
+### Примечание.
+Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Установка Docker не рекомендуется для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
 
 ### **Схема быстрого старта**
 
