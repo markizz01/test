@@ -5,18 +5,18 @@
 
 Следующие шаги позволят быстро развернуть сервер Rancher на AWS в кластере K3s Kubernetes single-node (с одним узлом), к которому подключен нижестоящий кластер Kubernetes single-node.
 
-**Примечание.** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Эти руководства не предназначены для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
+### **Примечание.** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Эти руководства не предназначены для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
 
-**Необходимые условия**
+### **Необходимые условия**
 
-***Внимание*** . За развертывание в Amazon AWS взимается плата.
+### ***Внимание*** . За развертывание в Amazon AWS взимается плата.
 
 - [Учетная запись](https://aws.amazon.com/account/ "https://aws.amazon.com/account/") Amazon AWS. Учетная запись Amazon AWS требуется для создания ресурсов для развертывания Rancher и Kubernetes.
 - [Ключ доступа к Amazon AWS](https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html "https://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html") . Воспользуйтесь этой ссылкой, чтобы следовать руководству по созданию ключа доступа к Amazon AWS, если у вас его еще нет.
 - [Созданная IAM-политика](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html#access_policies_create-start") : определяет разрешения, которые имеет учетная запись, связанная с этой политикой.
 - Установка Terraform : используется для предоставления сервера и кластера в Amazon AWS.
 
-**Пример IAM-политики**
+### **Пример IAM-политики**
 
 Модуль AWS просто создает пару ключей EC2, группу безопасности EC2 и экземпляр EC2. Простая политика будет:
 ``` 
@@ -32,7 +32,7 @@
 }
 ```
 
-**Начало работы**
+### **Начало работы**
 
 1. Клонируйте [Rancher Quickstart](https://github.com/rancher/quickstart "https://github.com/rancher/quickstart") в папку с помощью git clone https://github.com/rancher/quickstart.
 2. Перейдите в папку AWS, содержащую файлы terraform, выполнив cd quickstart/rancher/aws.
@@ -69,11 +69,11 @@ workload\_node\_ip = yy.yy.yy.yy
 
 В вашей учетной записи AWS развернуты два кластера Kubernetes, один из которых работает с Rancher Server, а другой готов к экспериментальному развертыванию. Обратите внимание, что, несмотря на то, что эта установка является отличным способом изучить функциональность Rancher, производственная установка должна соответствовать нашим рекомендациям по настройке высокой доступности. Ключи SSH для виртуальных машин генерируются автоматически и сохраняются в каталоге модуля.
 
-**Что дальше?**
+### **Что дальше?**
 
 Используйте Rancher для создания развертывания. Дополнительные сведения см. в разделе [Создание развертываний](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/quick-start-guide/workload "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/quick-start-guide/workload") . <https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/amazon-aws-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/quick-start-guide/workload> 
 
-**Ликвидация ресурса**
+### **Ликвидация ресурса**
 
 1. Из папки quickstart/rancher/aws выполнить terraform destroy --auto-approve.
 
