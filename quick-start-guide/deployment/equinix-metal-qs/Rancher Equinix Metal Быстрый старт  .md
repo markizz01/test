@@ -44,9 +44,9 @@
 1. Войдите на свой хост Equinix Metal, используя предпочтительный shell, например PuTTy, или подключение к удаленному терминалу.
 2. В вашей shell введите следующую команду:
 3. 
-
+```
 sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher
-
+```
 \*\*Result:\*\* Rancher is installed.
 
 
