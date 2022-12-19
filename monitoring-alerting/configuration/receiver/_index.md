@@ -234,10 +234,12 @@ receivers:
 - name: 'database-notifcations'
   pagerduty_configs:
   - service_key: 'database-integration-key'
-
+```
+	
   ## Пример конфигурации маршрута для предупреждений о сканировании CIS
 При настройке маршрутов для оповещений rancher-cis-benchmark можно указать соответствие с помощью пары ключ-значение job: rancher-cis-scan.
 Например, следующий пример конфигурации маршрута можно использовать с приемником Slack с именем test-cis:
+	
 ```  
 spec:
   receiver: test-cis
@@ -252,7 +254,8 @@ spec:
   match_re:
     {}
 #    key: string
-```  
+``` 
+	
 Дополнительные сведения о включении оповещений для rancher-cis-benchmark, см . [в этом разделе.](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/monitoring-alerting/configuration/receiver/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/cis-scans/)
 
 # Доверенный ЦС для уведомителей
