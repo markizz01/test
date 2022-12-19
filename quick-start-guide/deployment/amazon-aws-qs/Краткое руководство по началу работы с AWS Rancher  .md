@@ -22,50 +22,46 @@
 
 {
 
-`    `"Version": "2012-10-17",
+  "Version": "2012-10-17",
 
-`    `"Statement": [
+  "Statement": [
 
-`        `{
+  {
 
-`            `"Effect": "Allow",
+  "Effect": "Allow",
 
-`            `"Action": "ec2:\*",
+  "Action": "ec2:\*",
 
-`            `"Resource": "\*"
+  "Resource": "\*"
+  }
 
-`        `}
+  ]
 
-`    `]
-
-}
+  }
 
 **Начало работы**
 
 1. Клонируйте [Rancher Quickstart](https://github.com/rancher/quickstart "https://github.com/rancher/quickstart") в папку с помощью git clone https://github.com/rancher/quickstart.
-1. Перейдите в папку AWS, содержащую файлы terraform, выполнив cd quickstart/rancher/aws.
-1. Переименуйте terraform.tfvars.example  в terraform.tfvars.
-1. Отредактируйте terraform.tfvars и настройте следующие переменные:
+2. Перейдите в папку AWS, содержащую файлы terraform, выполнив cd quickstart/rancher/aws.
+3. Переименуйте terraform.tfvars.example  в terraform.tfvars.
+4. Отредактируйте terraform.tfvars и настройте следующие переменные:
 - aws\_access\_key- Ключ доступа Amazon AWS
 - aws\_secret\_key- Секретный ключ Amazon AWS
 - rancher\_server\_admin\_password- Пароль администратора для созданного сервера Rancher
-1. **Необязательно/опционно:** измените необязательные переменные в файлах terraform.tfvars. Дополнительную информацию см. в справочных материалах по [быстрому запуску](https://github.com/rancher/quickstart "https://github.com/rancher/quickstart") и в справочных материалах по [быстрому запуску AWS](https://github.com/rancher/quickstart/tree/master/rancher/aws "https://github.com/rancher/quickstart/tree/master/rancher/aws") . Предложения включают:
+5. **Необязательно/опционно:** измените необязательные переменные в файлах terraform.tfvars. Дополнительную информацию см. в справочных материалах по [быстрому запуску](https://github.com/rancher/quickstart "https://github.com/rancher/quickstart") и в справочных материалах по [быстрому запуску AWS](https://github.com/rancher/quickstart/tree/master/rancher/aws "https://github.com/rancher/quickstart/tree/master/rancher/aws") . Предложения включают:
 - aws\_region- Регион Amazon AWS, выберите ближайший вместо стандартного ( us-east-1)
 - prefix- Префикс для всех созданных ресурсов
 - instance\_type- Используемый размер инстанса EC2, минимальный, t3a.medium, но может быть использован t3a.large или  t3a.xlarge, если они находятся в рамках бюджета
 - add\_windows\_node- Если true, в кластер рабочей нагрузки добавляется дополнительный рабочий узел Windows.
-1. Переходим к terraform init.
-1. Чтобы инициировать создание среды, запустите terraform apply --auto-approve. Затем дождитесь вывода, подобного следующему:
+6. Переходим к terraform init.
+7. Чтобы инициировать создание среды, запустите terraform apply --auto-approve. Затем дождитесь вывода, подобного следующему:
 
 
 
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 
 
-
 Outputs:
-
-
 
 rancher\_node\_ip = xx.xx.xx.xx
 
@@ -73,8 +69,8 @@ rancher\_server\_url = https://rancher.xx.xx.xx.xx.sslip.io
 
 workload\_node\_ip = yy.yy.yy.yy
 
-1. Вставьте rancher\_server\_url из вывода выше в браузер. Войдите в систему, когда будет предложено (имя пользователя по умолчанию admin, используйте пароль, указанный в rancher\_server\_admin\_password).
-1. SSH для сервера Rancher, использует id\_rsa - ключ сгенерированный в quickstart/rancher/aws.
+8. Вставьте rancher\_server\_url из вывода выше в браузер. Войдите в систему, когда будет предложено (имя пользователя по умолчанию admin, используйте пароль, указанный в rancher\_server\_admin\_password).
+9. SSH для сервера Rancher, использует id\_rsa - ключ сгенерированный в quickstart/rancher/aws.
 
 **Результат**
 
@@ -88,4 +84,4 @@ workload\_node\_ip = yy.yy.yy.yy
 
 1. Из папки quickstart/rancher/aws выполнить terraform destroy --auto-approve.
 
-Дождитесь подтверждения, что все ресурсы уничтожены.
+2. Дождитесь подтверждения, что все ресурсы уничтожены.
