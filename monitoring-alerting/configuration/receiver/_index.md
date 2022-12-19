@@ -1,6 +1,6 @@
 Alertmanager Config Secret содержит пример конфигурации Alertmanager, который отправляет уведомления на основе предупреждений, полученных от Prometheus.
 
-В этом разделе предполагается, что вы знакомы с тем, как компоненты мониторинга работают вместе. Дополнительные сведения об Alertmanager см . в этом разделе. docs/content/rancher/v2.6/en/monitoring-alerting/how-monitoring-works/
+В этом разделе предполагается, что вы знакомы с тем, как компоненты мониторинга работают вместе. Дополнительные сведения об Alertmanager см . [в этом разделе.](https://github.com/rancher/docs/tree/master/content/rancher/v2.6/en/monitoring-alerting/how-monitoring-works#3-how-alertmanager-works)
 -	Создание приемников в пользовательском интерфейсе Rancher
 -	Конфигурация приемника
 -	Slack
