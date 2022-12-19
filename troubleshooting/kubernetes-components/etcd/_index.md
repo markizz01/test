@@ -68,6 +68,7 @@ docker exec -e ETCDCTL_ENDPOINTS=$(docker exec etcd /bin/sh -c "etcdctl member l
 ```
   
   Пример вывода:
+```
 +-----------------+------------------+---------+---------+-----------+-----------+------------+
 | ENDPOINT        |        ID        | VERSION | DB SIZE | IS LEADER | RAFT TERM | RAFT INDEX |
 +-----------------+------------------+---------+---------+-----------+-----------+------------+
@@ -75,7 +76,8 @@ docker exec -e ETCDCTL_ENDPOINTS=$(docker exec etcd /bin/sh -c "etcdctl member l
 | https://IP:2379 | 5feed52d940ce4cf |  3.2.18 |   24 MB |      true |        72 |      66887 |
 | https://IP:2379 | db6b3bdb559a848d |  3.2.18 |   25 MB |     false |        72 |      66887 |
 +-----------------+------------------+---------+---------+-----------+-----------+------------+
-  
+```
+           
 # Проверить работоспособность конечной точки
   
 Команда:
