@@ -6,13 +6,13 @@
 
 Связь с кластером (API Kubernetes через cattle-cluster-agent) и связь с узлами осуществляется через агентов Rancher.
 
-Если cattle-cluster-agent не может подключиться к настроенному server-url, кластер останется в состоянии ожидания , показывая Waiting for full cluster configuration.
+Если cattle-cluster-agent не может подключиться к настроенному server-url, кластер останется в состоянии **ожидания** , показывая Waiting for full cluster configuration.
 
 # cattle-node-agent
 
 ***Примечание:** cattle-node-agents присутствуют только в кластерах, созданных в Rancher с помощью RKE.*
 
-Проверьте, присутствуют ли поды cattle-node-agents на каждой нодее, имеют ли они статус « Работает » и не имеют ли большого количества перезапусков:
+Проверьте, присутствуют ли поды cattle-node-agents на каждой нодее, имеют ли они статус **« Работает »** и не имеют ли большого количества перезапусков:
 ```
 kubectl -n cattle-system get pods -l app=cattle-agent -o wide
 ```
@@ -32,10 +32,10 @@ cattle-node-agent-t8mtz   1/1       Running   0          2h        x.x.x.x      
 Проверьте ведение журнала конкретного пода cattle-node-agents или всех подов cattle-node-agents:
 ```
 kubectl -n cattle-system logs -l app=cattle-agent
-cattle-cluster-agent
 ```
+# cattle-cluster-agent
 
-Проверьте, присутствует ли под cattle-cluster-agent в кластере, имеет ли он статус « Работает » и не имеет ли большого количества перезапусков:
+Проверьте, присутствует ли под cattle-cluster-agent в кластере, имеет ли он статус **« Работает »** и не имеет ли большого количества перезапусков:
 ```
 kubectl -n cattle-system get pods -l app=cattle-cluster-agent -o wide
 ```
