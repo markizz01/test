@@ -49,47 +49,26 @@
 
 \*\*Result:\*\* Rancher is installed.
 
-
-
 \### 3. Log In
-
-
 
 Log in to Rancher to begin using the application. After you log in, you'll make some one-time configurations.
 
-
-
 \1.  Open a web browser and enter the IP address of your host: `https://<SERVER\_IP>`.
 
-
-
 `  `Replace `<SERVER\_IP>` with your host IP address.
-
-
 
 \2.  When prompted, create a password for the default `admin` account there cowpoke!
 
 
-
 \3. Set the \*\*Rancher Server URL\*\*. The URL can either be an IP address or a host name. However, each node added to your cluster must be able to connect to this URL.<br/><br/>If you use a hostname in the URL, this hostname must be resolvable by DNS on the nodes you want to add to you cluster.
-
-
 
 <br/>
 
-
-
 \### 4. Create the Cluster
-
-
 
 Welcome to Rancher! You are now able to create your first Kubernetes cluster.
 
-
-
 In this task, you can use the versatile \*\*Custom\*\* option. This option lets you add \_any\_ Linux host (cloud-hosted VM, on-prem VM, or bare-metal) to be used in a cluster.
-
-
 
 \1.  Click \*\*☰ > Cluster Management\*\*.
 
@@ -97,77 +76,42 @@ In this task, you can use the versatile \*\*Custom\*\* option. This option lets 
 
 \2. Choose \*\*Custom\*\*.
 
-
-
 \3. Enter a \*\*Cluster Name\*\*.
-
-
 
 \4. Skip \*\*Member Roles\*\* and \*\*Cluster Options\*\*. We'll tell you about them later.
 
-
-
 \5. Click \*\*Next\*\*.
-
-
 
 \6. From \*\*Node Role\*\*, select \_all\_ the roles: \*\*etcd\*\*, \*\*Control\*\*, and \*\*Worker\*\*.
 
-
-
 \7. \*\*Optional\*\*: Rancher auto-detects the IP addresses used for Rancher communication and cluster communication. You can override these using `Public Address` and `Internal Address` in the \*\*Node Address\*\* section.
-
-
 
 \8. Skip the \*\*Labels\*\* stuff. It's not important for now.
 
-
-
 \9. Copy the command displayed on screen to your clipboard.
 
-
-
 \10. Log in to your Linux host using your preferred shell, such as PuTTy or a remote Terminal connection. Run the command copied to your clipboard.
-
-
 
 \11. When you finish running the command on your Linux host, click \*\*Done\*\*.
 
 
-
 \*\*Result:\*\*
-
-
 
 Your cluster is created and assigned a state of \*\*Provisioning\*\*. Rancher is standing up your cluster.
 
-
-
 You can access your cluster after its state is updated to \*\*Active\*\*.
 
-
-
 \*\*Active\*\* clusters are assigned two Projects:
-
-
 
 \- `Default`, containing the `default` namespace
 
 \- `System`, containing the `cattle-system`, `ingress-nginx`, `kube-public`, and `kube-system` namespaces
-
-
-
+ 
 \#### Finished
-
-
 
 Congratulations! You have created your first cluster.
 
-
-
 \#### What's Next?
-
-
 
 Use Rancher to create a deployment. For more information, see [Creating Deployments]({{<baseurl>}}/rancher/v2.6/en/quick-start-guide/workload).
 
