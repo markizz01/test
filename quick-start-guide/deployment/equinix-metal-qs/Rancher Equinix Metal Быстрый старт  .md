@@ -1,30 +1,30 @@
 ﻿
 
 
-**Эта инструкция покажет следующее:**
+### **Эта инструкция покажет следующее:**
 
 - Инициализация сервера Equinix Metal
 - Установка Rancher 2.x
 - Создание вашего первого кластера
 - Развертывание приложения, Nginx
 
-***Примечание.*** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Установка Docker не рекомендуется для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
+### ***Примечание.*** Целью этих руководств является быстрый запуск песочницы, которую вы можете использовать для оценки Rancher. Установка Docker не рекомендуется для производственных сред. Подробные инструкции по установке см . в разделе [Установка](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation") .
 
-**Схема быстрого старта**
+### **Схема быстрого старта**
 
 Это краткое руководство разделено на различные задачи для более удобного использования.
 
 1. [Предоставление хоста Equinix Metal](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#1-provision-a-equinix-metal-host")
-1. [Установить Rancher ](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#2-install-rancher")
-1. [Авторизоваться](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#3-log-in")
-1. [Создайте кластер](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#4-create-the-cluster")
+2. [Установить Rancher ](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#2-install-rancher")
+3. [Авторизоваться](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#3-log-in")
+4. [Создайте кластер](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/_index.md#4-create-the-cluster")
 
-**Начало работы**
+### **Начало работы**
 
 - Аккаунт Equinix Metal
 - Проект [Equinix Metal](https://metal.equinix.com/developers/docs/accounts/projects/ "https://metal.equinix.com/developers/docs/accounts/projects/")
 
-**1. Предоставление хоста Equinix Metal**
+##  Предоставление хоста Equinix Metal**
 
 Начните развертывание Equinix Metal Host. Серверы Equinix Metal можно настроить с помощью консоли Equinix Metal, api или cli. Вы можете найти инструкции по развертыванию с каждым типом [развертывания в документации по развертыванию Equinix Metal](https://metal.equinix.com/developers/docs/deploy/on-demand/ "https://metal.equinix.com/developers/docs/deploy/on-demand/") . Yopu может найти дополнительную документацию по типам и ценам серверов Equinix Metal ниже.
 
@@ -33,19 +33,19 @@
 
 
 
-***Примечание:***
+### ***Примечание:***
 
 При подготовке нового Equinix Metal Server через интерфейс командной строки или API вам потребуется предоставить следующую информацию: идентификатор проекта, план, metro и операционную систему. При использовании виртуальной машины, размещенной в облаке, вам необходимо разрешить входящие TCP комуникаторы с портами 80 и 443. Информацию о настройке портов см. в документации вашего облачного хоста. Полный список требований к порту см. в [разделе Установка Docker](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/cluster-provisioning/node-requirements "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/cluster-provisioning/node-requirements") . Подготовьте хост в соответствии с нашими [Требованиями](https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation/requirements "https://github.com/rancher/docs/blob/master/content/rancher/v2.6/en/quick-start-guide/deployment/equinix-metal-qs/%7B%7B%3Cbaseurl%3E%7D%7D/rancher/v2.6/en/installation/requirements") .
 
-**2. Установите Rancher**
+## Установите Rancher**
 
 Чтобы установить Rancher на свой хост Equinix Metal, подключитесь к нему, а затем используйте shell (командную строку) для установки.
 
 1. Войдите на свой хост Equinix Metal, используя предпочтительный shell, например PuTTy, или подключение к удаленному терминалу.
-1. В вашей shell введите следующую команду:
-1. sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher
+2. В вашей shell введите следующую команду:
+3. 
 
-
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher
 
 \*\*Result:\*\* Rancher is installed.
 
