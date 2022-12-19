@@ -50,7 +50,7 @@
 7. Чтобы инициировать создание среды, запустите terraform apply --auto-approve. Затем дождитесь вывода, подобного следующему:
 
 
-
+```
 Apply complete! Resources: 16 added, 0 changed, 0 destroyed.
 
 
@@ -61,7 +61,7 @@ rancher\_node\_ip = xx.xx.xx.xx
 rancher\_server\_url = https://rancher.xx.xx.xx.xx.sslip.io
 
 workload\_node\_ip = yy.yy.yy.yy
-
+```
 8. Вставьте rancher\_server\_url из вывода выше в браузер. Войдите в систему, когда будет предложено (имя пользователя по умолчанию admin, используйте пароль, указанный в rancher\_server\_admin\_password).
 9. SSH для сервера Rancher, использует id\_rsa - ключ сгенерированный в quickstart/rancher/aws.
 
