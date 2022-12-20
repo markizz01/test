@@ -76,7 +76,6 @@
 |**Каталог**|**Выражение**|
 | :-: | :-: |
 |Деталь||нагрузка1|sum(node\_load1) by (instance) / count(node\_cpu\_seconds\_total{mode="system"}) by (instance)|
-| :- | :- |
 |нагрузка5|sum(node\_load5) by (instance) / count(node\_cpu\_seconds\_total{mode="system"}) by (instance)|
 |нагрузка15|sum(node\_load15) by (instance) / count(node\_cpu\_seconds\_total{mode="system"}) by (instance)||
 |Резюме||нагрузка1|sum(node\_load1) by (instance) / count(node\_cpu\_seconds\_total{mode="system"})|
