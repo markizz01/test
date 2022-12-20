@@ -350,7 +350,7 @@ sum(etcd\_server\_proposals\_failed\_total)
 |Деталь|sum(rate(scheduler\_total\_preemption\_attempts[5m])) by (instance)|
 |Резюме|sum(rate(scheduler\_total\_preemption\_attempts[5m]))|
 
-Подключение контроллера входа (Ingress Controller)**
+## Подключение контроллера входа (Ingress Controller)
 
 |**Каталог**|**Выражение**|
 | :-: | :-: |
